@@ -1,0 +1,609 @@
+08:56:59.372: CPU Name: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz
+08:56:59.372: CPU Speed: 4200MHz
+08:56:59.372: Physical Cores: 4, Logical Cores: 8
+08:56:59.372: Physical Memory: 16344MB Total, 11065MB Free
+08:56:59.372: Windows Version: 10.0 Build 15063 (revision: 296; 64-bit)
+08:56:59.372: Running as administrator: false
+08:56:59.372: Aero is Enabled (Aero is always on for windows 8 and above)
+08:56:59.372: Portable mode: false
+08:56:59.384: OBS 20.0.1 (64bit, windows)
+08:56:59.384: ---------------------------------
+08:56:59.384: ---------------------------------
+08:56:59.385: audio settings reset:
+08:56:59.385: 	samples per sec: 44100
+08:56:59.385: 	speakers:        2
+08:56:59.406: ---------------------------------
+08:56:59.406: Initializing D3D11...
+08:56:59.406: Available Video Adapters: 
+08:56:59.408: 	Adapter 1: NVIDIA GeForce GTX 1070
+08:56:59.408: 	  Dedicated VRAM: 4183752704
+08:56:59.408: 	  Shared VRAM:    4274440192
+08:56:59.408: 	  output 1: pos={0, 0}, size={1920, 1080}, attached=true
+08:56:59.408: 	  output 2: pos={1920, 0}, size={1920, 1080}, attached=true
+08:56:59.411: Loading up D3D11 on adapter NVIDIA GeForce GTX 1070 (0)
+08:56:59.512: D3D11 loaded successfully, feature level used: 45056
+08:57:00.026: ---------------------------------
+08:57:00.026: video settings reset:
+08:57:00.026: 	base resolution:   1920x1080
+08:57:00.026: 	output resolution: 1280x720
+08:57:00.026: 	downscale filter:  Lanczos
+08:57:00.026: 	fps:               60/1
+08:57:00.026: 	format:            NV12
+08:57:00.027: Audio monitoring device:
+08:57:00.027: 	name: Default
+08:57:00.027: 	id: default
+08:57:00.028: ---------------------------------
+08:57:00.053: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/chrome_elf.dll' not found, loading of module failed
+08:57:00.072: [CoreAudio encoder]: CoreAudio AAC encoder not installed on the system or couldn't be loaded
+08:57:00.131: [AMF] Version 2.2.2 loaded (Compiled: 1.4.4.0, Runtime: 1.4.2.0, Library: 1;4;2;0;17.10.1731;201704242122;CL#1401971).
+08:57:00.190: [AMF] [H264/AVC] Not supported by any GPU, disabling...
+08:57:00.190: [AMF] [H265/HEVC] Not supported by any GPU, disabling...
+08:57:00.858: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libcef.dll' not found, loading of module failed
+08:57:00.875: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libEGL.dll' not found, loading of module failed
+08:57:00.925: Required module function 'obs_module_load' in module '../../obs-plugins/64bit/libGLESv2.dll' not found, loading of module failed
+08:57:00.957: Failed to load 'en-US' text for module: 'obs-browser.dll'
+08:57:00.957: [browser_source: 'Version: 1.29.0']
+08:57:01.048: NVENC supported
+08:57:01.285: Couldn't find VLC installation, VLC video source disabled
+08:57:01.329: No blackmagic support
+08:57:01.469: ---------------------------------
+08:57:01.469:   Loaded Modules:
+08:57:01.469:     win-wasapi.dll
+08:57:01.469:     win-mf.dll
+08:57:01.469:     win-dshow.dll
+08:57:01.469:     win-decklink.dll
+08:57:01.469:     win-capture.dll
+08:57:01.469:     vlc-video.dll
+08:57:01.469:     text-freetype2.dll
+08:57:01.469:     rtmp-services.dll
+08:57:01.469:     obs-x264.dll
+08:57:01.469:     obs-vst.dll
+08:57:01.469:     obs-transitions.dll
+08:57:01.469:     obs-text.dll
+08:57:01.469:     obs-qsv11.dll
+08:57:01.469:     obs-outputs.dll
+08:57:01.469:     obs-filters.dll
+08:57:01.469:     obs-ffmpeg.dll
+08:57:01.469:     obs-browser.dll
+08:57:01.469:     image-source.dll
+08:57:01.469:     frontend-tools.dll
+08:57:01.469:     enc-amf.dll
+08:57:01.469:     coreaudio-encoder.dll
+08:57:01.469: ---------------------------------
+08:57:01.469: ==== Startup complete ===============================================
+08:57:01.471: All scene data cleared
+08:57:01.471: ------------------------------------------------
+08:57:01.495: WASAPI: Device 'Speakers (Logitech G933 Gaming Wireless Headset)' initialized
+08:57:01.507: WASAPI: Device 'Microphone (Blue Snowball)' initialized
+08:57:01.530: adding 23 milliseconds of audio buffering, total audio buffering is now 23 milliseconds
+08:57:02.740: Switched to scene 'Scene'
+08:57:02.742: ------------------------------------------------
+08:57:02.742: Loaded scenes:
+08:57:02.742: - scene 'Scene':
+08:57:02.742:     - source: 'Game Capture' (game_capture)
+08:57:02.742:     - source: 'Webcam' (dshow_input)
+08:57:02.742:     - source: 'be right back' (image_source)
+08:57:02.742:     - source: 'stream starting soon' (image_source)
+08:57:02.742:     - source: 'MCprohosting' (image_source)
+08:57:02.742:     - source: 'streamjar' (browser_source)
+08:57:02.742:     - source: 'https://loots.com/en/chroma/r1yHT7IvZ/overlay/clr?ts=1502827169295' (browser_source)
+08:57:02.742: ------------------------------------------------
+08:57:02.927: ---------------------------------
+08:57:02.927: [DShow Device: 'Webcam'] settings updated: 
+08:57:02.927: 	video device: Microsoft® LifeCam HD-3000
+08:57:02.927: 	video path: \\?\usb#vid_045e&pid_0810&mi_00#6&4f3447d&0&0000#{65e8773d-8f56-11d0-a3b9-00a0c9223196}\global
+08:57:02.927: 	resolution: 640x480
+08:57:02.927: 	fps: 30.00 (interval: 333333)
+08:57:02.927: 	format: YUY2
+08:57:02.996: 	using video device audio: no
+08:57:02.996: 	audio device: Microphone (Blue Snowball)
+08:57:02.996: 	sample rate: 44100
+08:57:02.996: 	channels: 2
+08:57:02.996: 	audio type: Capture
+09:10:07.195: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+09:10:07.197: [game-capture: 'Game Capture'] using helper (compatibility hook)
+09:10:07.240: [game-capture: 'Game Capture'] hook not loaded yet, retrying..
+09:10:09.211: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+09:10:09.225: [game-capture: 'Game Capture'] d3d11 shared texture capture successful
+09:10:09.228: [game-capture: 'Game Capture'] shared texture capture successful
+09:10:09.561: A sprite cannot be drawn without a width/height
+09:10:09.561: A sprite cannot be drawn without a width/height
+09:11:11.128: [game-capture: 'Game Capture'] capture stopped
+09:11:11.862: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+09:11:11.878: [game-capture: 'Game Capture'] shared texture capture successful
+09:11:52.861: [game-capture: 'Game Capture'] capture window no longer exists, terminating capture
+09:11:52.861: [game-capture: 'Game Capture'] capture stopped
+09:13:20.595: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+09:13:20.598: [game-capture: 'Game Capture'] using helper (compatibility hook)
+09:13:20.620: [game-capture: 'Game Capture'] hook not loaded yet, retrying..
+09:13:23.611: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+09:13:23.625: [game-capture: 'Game Capture'] d3d11 shared texture capture successful
+09:13:23.628: [game-capture: 'Game Capture'] shared texture capture successful
+09:17:50.273: [ftl stream: '(null)'] ftl_stream_create
+09:17:50.273: [ftl stream: 'adv_stream'] ftl_stream_start
+09:17:50.273: ---------------------------------
+09:17:50.273: [NVENC encoder: 'streaming_h264'] settings:
+09:17:50.273: 	rate_control: CBR
+09:17:50.273: 	bitrate:      2500
+09:17:50.273: 	cqp:          0
+09:17:50.273: 	keyint:       180
+09:17:50.273: 	preset:       llhp
+09:17:50.273: 	profile:      main
+09:17:50.273: 	level:        auto
+09:17:50.273: 	width:        1280
+09:17:50.273: 	height:       720
+09:17:50.273: 	2-pass:       true
+09:17:50.273: 	b-frames:     0
+09:17:50.273: 	GPU:          0
+09:17:50.273: 
+09:17:51.511: ---------------------------------
+09:17:51.512: [FFmpeg libopus encoder: 'alt_audio_enc'] bitrate: 160, channels: 2
+09:17:51.512: warning: No channel layout specified. Opus encoder will use Vorbis channel layout for 2 channels.
+09:17:51.512: ftl-stream: connect thread
+09:17:51.512: [ftl stream: 'adv_stream'] init_connect
+09:17:51.512: [ftl stream: 'adv_stream'] Connecting to FTL Ingest URL auto...
+09:17:53.312: [ftl stream: 'adv_stream'] Connection to auto successful
+09:17:54.591: [ftl stream: 'adv_stream'] Speed test completed: User desired bitrate 2500, Peak kbps 13812, initial rtt 73, final rtt 41, 8.00 lost packets
+09:17:54.594: ==== Streaming Start ===============================================
+09:21:07.337: [ftl stream: 'adv_stream'] ftl_stream_stop
+09:21:07.346: [ftl stream: 'adv_stream'] Stream shutdown timeout reached (0 second(s))
+09:21:07.346: [ftl stream: 'adv_stream'] User stopped the stream
+09:21:07.346: Output 'adv_stream': stopping
+09:21:07.346: Output 'adv_stream': Total frames output: 11530
+09:21:07.346: Output 'adv_stream': Total drawn frames: 11750
+09:21:07.346: [ftl stream: 'adv_stream'] ingest disconnect
+09:21:07.348: ==== Streaming Stop ================================================
+09:21:07.424: warning: 1 frames left in the queue on closing
+09:21:08.866: [ftl stream: 'adv_stream'] Freeing 3 remaining packets
+09:21:08.866: [ftl stream: 'adv_stream'] Disconnected from ingest with reason: ftl ingest disconnect api was called
+09:21:30.417: [ftl stream: 'adv_stream'] ftl_stream_start
+09:21:30.417: ---------------------------------
+09:21:30.417: [NVENC encoder: 'streaming_h264'] settings:
+09:21:30.417: 	rate_control: CBR
+09:21:30.417: 	bitrate:      2500
+09:21:30.417: 	cqp:          0
+09:21:30.417: 	keyint:       180
+09:21:30.417: 	preset:       llhp
+09:21:30.417: 	profile:      main
+09:21:30.417: 	level:        auto
+09:21:30.417: 	width:        1280
+09:21:30.417: 	height:       720
+09:21:30.417: 	2-pass:       true
+09:21:30.417: 	b-frames:     0
+09:21:30.417: 	GPU:          0
+09:21:30.417: 
+09:21:30.643: ---------------------------------
+09:21:30.643: [FFmpeg libopus encoder: 'alt_audio_enc'] bitrate: 160, channels: 2
+09:21:30.643: warning: No channel layout specified. Opus encoder will use Vorbis channel layout for 2 channels.
+09:21:30.643: ftl-stream: connect thread
+09:21:30.643: [ftl stream: 'adv_stream'] init_connect
+09:21:30.643: [ftl stream: 'adv_stream'] Connecting to FTL Ingest URL auto...
+09:21:32.223: [ftl stream: 'adv_stream'] Connection to auto successful
+09:21:33.501: [ftl stream: 'adv_stream'] Speed test completed: User desired bitrate 2500, Peak kbps 13826, initial rtt 69, final rtt 39, 7.93 lost packets
+09:21:33.503: ==== Streaming Start ===============================================
+09:45:57.994: [game-capture: 'Game Capture'] capture window no longer exists, terminating capture
+09:45:57.995: [game-capture: 'Game Capture'] capture stopped
+09:46:13.095: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+09:46:13.098: [game-capture: 'Game Capture'] using helper (compatibility hook)
+09:46:13.118: [game-capture: 'Game Capture'] hook not loaded yet, retrying..
+09:46:16.112: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+09:46:16.128: [game-capture: 'Game Capture'] d3d11 shared texture capture successful
+09:46:16.128: [game-capture: 'Game Capture'] shared texture capture successful
+09:52:08.019: Settings changed (outputs)
+09:52:08.019: ------------------------------------------------
+10:16:55.039: Settings changed (outputs)
+10:16:55.039: ------------------------------------------------
+10:18:53.806: Settings changed (outputs)
+10:18:53.806: ------------------------------------------------
+10:19:15.402: Settings changed (outputs)
+10:19:15.402: ------------------------------------------------
+10:20:22.694: [game-capture: 'Game Capture'] capture window no longer exists, terminating capture
+10:20:22.695: [game-capture: 'Game Capture'] capture stopped
+10:20:55.987: Settings changed (outputs)
+10:20:55.987: ------------------------------------------------
+10:21:23.045: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+10:21:23.048: [game-capture: 'Game Capture'] using helper (compatibility hook)
+10:21:23.069: [game-capture: 'Game Capture'] hook not loaded yet, retrying..
+10:21:26.062: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+10:21:26.072: [game-capture: 'Game Capture'] d3d11 shared texture capture successful
+10:21:26.077: [game-capture: 'Game Capture'] shared texture capture successful
+10:21:27.371: [ftl stream: 'adv_stream'] ftl_stream_stop
+10:21:27.379: [ftl stream: 'adv_stream'] Stream shutdown timeout reached (0 second(s))
+10:21:27.379: [ftl stream: 'adv_stream'] User stopped the stream
+10:21:27.379: Output 'adv_stream': stopping
+10:21:27.379: Output 'adv_stream': Total frames output: 215573 (215591 attempted)
+10:21:27.379: Output 'adv_stream': Total drawn frames: 191527 (215805 attempted)
+10:21:27.379: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 24278 (11.2%)
+10:21:27.379: Output 'adv_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 18 (0.0%)
+10:21:27.379: [ftl stream: 'adv_stream'] ingest disconnect
+10:21:27.382: ==== Streaming Stop ================================================
+10:21:27.457: warning: 1 frames left in the queue on closing
+10:21:27.987: [ftl stream: 'adv_stream'] Freeing 5 remaining packets
+10:21:27.987: [ftl stream: 'adv_stream'] Disconnected from ingest with reason: ftl ingest disconnect api was called
+10:21:30.023: [ftl stream: 'adv_stream'] ftl_stream_start
+10:21:30.023: ---------------------------------
+10:21:30.023: [NVENC encoder: 'streaming_h264'] settings:
+10:21:30.023: 	rate_control: CBR
+10:21:30.023: 	bitrate:      1500
+10:21:30.023: 	cqp:          0
+10:21:30.023: 	keyint:       180
+10:21:30.023: 	preset:       llhp
+10:21:30.023: 	profile:      main
+10:21:30.023: 	level:        auto
+10:21:30.023: 	width:        1280
+10:21:30.023: 	height:       720
+10:21:30.023: 	2-pass:       true
+10:21:30.023: 	b-frames:     0
+10:21:30.023: 	GPU:          0
+10:21:30.023: 
+10:21:30.560: ---------------------------------
+10:21:30.560: [FFmpeg libopus encoder: 'alt_audio_enc'] bitrate: 160, channels: 2
+10:21:30.560: warning: No channel layout specified. Opus encoder will use Vorbis channel layout for 2 channels.
+10:21:30.561: ftl-stream: connect thread
+10:21:30.561: [ftl stream: 'adv_stream'] init_connect
+10:21:30.561: [ftl stream: 'adv_stream'] Connecting to FTL Ingest URL auto...
+10:21:32.620: [ftl stream: 'adv_stream'] Connection to auto successful
+10:21:33.899: [ftl stream: 'adv_stream'] Speed test completed: User desired bitrate 1500, Peak kbps 13804, initial rtt 94, final rtt 50, 8.08 lost packets
+10:21:33.903: ==== Streaming Start ===============================================
+10:22:12.699: Settings changed (outputs)
+10:22:12.699: ------------------------------------------------
+10:22:49.241: Settings changed (outputs)
+10:22:49.241: ------------------------------------------------
+10:23:47.085: Settings changed (outputs)
+10:23:47.085: ------------------------------------------------
+10:25:40.913: Settings changed (outputs)
+10:25:40.913: ------------------------------------------------
+10:25:47.931: Settings changed (outputs)
+10:25:47.931: ------------------------------------------------
+10:26:04.382: Settings changed (outputs)
+10:26:04.382: ------------------------------------------------
+10:27:40.515: Settings changed (outputs)
+10:27:40.515: ------------------------------------------------
+10:28:52.132: Settings changed (outputs)
+10:28:52.132: ------------------------------------------------
+10:29:40.627: Settings changed (outputs)
+10:29:40.627: ------------------------------------------------
+10:30:26.818: Settings changed (outputs)
+10:30:26.818: ------------------------------------------------
+10:31:06.852: Settings changed (outputs)
+10:31:06.852: ------------------------------------------------
+10:32:04.123: Settings changed (outputs)
+10:32:04.123: ------------------------------------------------
+10:32:08.877: Settings changed (outputs)
+10:32:08.877: ------------------------------------------------
+10:32:14.945: Settings changed (outputs)
+10:32:14.945: ------------------------------------------------
+10:32:17.673: Settings changed (outputs)
+10:32:17.673: ------------------------------------------------
+10:34:40.039: [ftl stream: 'adv_stream'] ftl_stream_stop
+10:34:40.040: [ftl stream: 'adv_stream'] Stream shutdown timeout reached (0 second(s))
+10:34:40.040: [ftl stream: 'adv_stream'] User stopped the stream
+10:34:40.040: Output 'adv_stream': stopping
+10:34:40.040: Output 'adv_stream': Total frames output: 47144 (47128 attempted)
+10:34:40.040: Output 'adv_stream': Total drawn frames: 43201 (47371 attempted)
+10:34:40.040: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 4170 (8.8%)
+10:34:40.040: Output 'adv_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: -16 (-0.0%)
+10:34:40.041: [ftl stream: 'adv_stream'] ingest disconnect
+10:34:40.047: ==== Streaming Stop ================================================
+10:34:40.117: warning: 1 frames left in the queue on closing
+10:34:43.219: [ftl stream: 'adv_stream'] Freeing 4 remaining packets
+10:34:43.219: [ftl stream: 'adv_stream'] Disconnected from ingest with reason: ftl ingest disconnect api was called
+10:35:01.997: [ftl stream: 'adv_stream'] ftl_stream_destroy
+10:35:01.997: [ftl stream: 'adv_stream'] ingest destroy
+10:35:02.003: Settings changed (outputs)
+10:35:02.003: ------------------------------------------------
+10:35:11.619: [ftl stream: '(null)'] ftl_stream_create
+10:35:11.619: [ftl stream: 'adv_stream'] ftl_stream_start
+10:35:11.619: ---------------------------------
+10:35:11.619: [NVENC encoder: 'streaming_h264'] settings:
+10:35:11.619: 	rate_control: CBR
+10:35:11.619: 	bitrate:      2000
+10:35:11.619: 	cqp:          0
+10:35:11.619: 	keyint:       180
+10:35:11.619: 	preset:       llhq
+10:35:11.619: 	profile:      main
+10:35:11.619: 	level:        auto
+10:35:11.619: 	width:        960
+10:35:11.619: 	height:       540
+10:35:11.619: 	2-pass:       true
+10:35:11.619: 	b-frames:     0
+10:35:11.619: 	GPU:          0
+10:35:11.619: 
+10:35:11.810: ---------------------------------
+10:35:11.810: [FFmpeg libopus encoder: 'alt_audio_enc'] bitrate: 160, channels: 2
+10:35:11.810: warning: No channel layout specified. Opus encoder will use Vorbis channel layout for 2 channels.
+10:35:11.811: ftl-stream: connect thread
+10:35:11.811: [ftl stream: 'adv_stream'] init_connect
+10:35:11.811: [ftl stream: 'adv_stream'] Connecting to FTL Ingest URL auto...
+10:35:16.139: [ftl stream: 'adv_stream'] Connection to auto successful
+10:35:17.418: [ftl stream: 'adv_stream'] Speed test completed: User desired bitrate 2000, Peak kbps 13669, initial rtt 83, final rtt 44, 8.98 lost packets
+10:35:17.421: ==== Streaming Start ===============================================
+10:37:12.353: [ftl stream: 'adv_stream'] ftl_stream_stop
+10:37:12.363: [ftl stream: 'adv_stream'] Stream shutdown timeout reached (0 second(s))
+10:37:12.363: [ftl stream: 'adv_stream'] User stopped the stream
+10:37:12.363: Output 'adv_stream': stopping
+10:37:12.363: Output 'adv_stream': Total frames output: 6854
+10:37:12.363: Output 'adv_stream': Total drawn frames: 6008 (7234 attempted)
+10:37:12.363: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 1226 (16.9%)
+10:37:12.363: [ftl stream: 'adv_stream'] ingest disconnect
+10:37:12.365: ==== Streaming Stop ================================================
+10:37:12.435: warning: 1 frames left in the queue on closing
+10:37:16.688: [ftl stream: 'adv_stream'] Freeing 3 remaining packets
+10:37:16.689: [ftl stream: 'adv_stream'] Disconnected from ingest with reason: ftl ingest disconnect api was called
+10:37:26.187: [ftl stream: 'adv_stream'] ftl_stream_destroy
+10:37:26.187: [ftl stream: 'adv_stream'] ingest destroy
+10:37:26.195: Settings changed (outputs)
+10:37:26.195: ------------------------------------------------
+10:37:32.552: [ftl stream: '(null)'] ftl_stream_create
+10:37:32.552: [ftl stream: 'adv_stream'] ftl_stream_start
+10:37:32.552: ---------------------------------
+10:37:32.552: [NVENC encoder: 'streaming_h264'] settings:
+10:37:32.552: 	rate_control: CBR
+10:37:32.552: 	bitrate:      2000
+10:37:32.552: 	cqp:          0
+10:37:32.552: 	keyint:       180
+10:37:32.552: 	preset:       llhq
+10:37:32.552: 	profile:      main
+10:37:32.552: 	level:        auto
+10:37:32.552: 	width:        1024
+10:37:32.552: 	height:       576
+10:37:32.552: 	2-pass:       true
+10:37:32.552: 	b-frames:     0
+10:37:32.552: 	GPU:          0
+10:37:32.552: 
+10:37:32.731: ---------------------------------
+10:37:32.731: [FFmpeg libopus encoder: 'alt_audio_enc'] bitrate: 160, channels: 2
+10:37:32.731: warning: No channel layout specified. Opus encoder will use Vorbis channel layout for 2 channels.
+10:37:32.731: ftl-stream: connect thread
+10:37:32.731: [ftl stream: 'adv_stream'] init_connect
+10:37:32.731: [ftl stream: 'adv_stream'] Connecting to FTL Ingest URL auto...
+10:37:34.119: [ftl stream: 'adv_stream'] Connection to auto successful
+10:37:37.255: [ftl stream: 'adv_stream'] Speed test completed: User desired bitrate 2000, Peak kbps 5005, initial rtt -1, final rtt -1, 0.00 lost packets
+10:37:37.280: ==== Streaming Start ===============================================
+10:38:50.153: Settings changed (outputs)
+10:38:50.153: ------------------------------------------------
+10:39:39.552: [ftl stream: 'adv_stream'] ftl_stream_stop
+10:39:39.560: [ftl stream: 'adv_stream'] Stream shutdown timeout reached (0 second(s))
+10:39:39.560: [ftl stream: 'adv_stream'] User stopped the stream
+10:39:39.560: Output 'adv_stream': stopping
+10:39:39.560: Output 'adv_stream': Total frames output: 7295 (7297 attempted)
+10:39:39.560: Output 'adv_stream': Total drawn frames: 6744 (7610 attempted)
+10:39:39.560: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 866 (11.4%)
+10:39:39.560: Output 'adv_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 2 (0.0%)
+10:39:39.561: [ftl stream: 'adv_stream'] ingest disconnect
+10:39:39.564: ==== Streaming Stop ================================================
+10:39:39.567: [ftl stream: 'adv_stream'] Freeing 1 remaining packets
+10:39:39.567: [ftl stream: 'adv_stream'] Disconnected from ingest with reason: ftl ingest disconnect api was called
+10:39:39.634: warning: 1 frames left in the queue on closing
+10:39:55.310: [ftl stream: 'adv_stream'] ftl_stream_start
+10:39:55.310: ---------------------------------
+10:39:55.310: [NVENC encoder: 'streaming_h264'] settings:
+10:39:55.310: 	rate_control: CBR
+10:39:55.310: 	bitrate:      2000
+10:39:55.310: 	cqp:          0
+10:39:55.310: 	keyint:       180
+10:39:55.310: 	preset:       llhp
+10:39:55.310: 	profile:      main
+10:39:55.310: 	level:        auto
+10:39:55.310: 	width:        1024
+10:39:55.310: 	height:       576
+10:39:55.310: 	2-pass:       true
+10:39:55.310: 	b-frames:     0
+10:39:55.310: 	GPU:          0
+10:39:55.310: 
+10:39:55.500: ---------------------------------
+10:39:55.500: [FFmpeg libopus encoder: 'alt_audio_enc'] bitrate: 160, channels: 2
+10:39:55.500: warning: No channel layout specified. Opus encoder will use Vorbis channel layout for 2 channels.
+10:39:55.501: ftl-stream: connect thread
+10:39:55.501: [ftl stream: 'adv_stream'] init_connect
+10:39:55.501: [ftl stream: 'adv_stream'] Connecting to FTL Ingest URL auto...
+10:39:57.141: [ftl stream: 'adv_stream'] Connection to auto successful
+10:39:58.445: [ftl stream: 'adv_stream'] Speed test completed: User desired bitrate 2000, Peak kbps 13734, initial rtt 80, final rtt 41, 8.52 lost packets
+10:39:58.448: ==== Streaming Start ===============================================
+10:45:55.340: [ftl stream: 'adv_stream'] ftl_stream_stop
+10:45:55.347: [ftl stream: 'adv_stream'] Stream shutdown timeout reached (0 second(s))
+10:45:55.347: [ftl stream: 'adv_stream'] User stopped the stream
+10:45:55.347: Output 'adv_stream': stopping
+10:45:55.347: Output 'adv_stream': Total frames output: 21370 (21374 attempted)
+10:45:55.347: Output 'adv_stream': Total drawn frames: 20833 (21591 attempted)
+10:45:55.347: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 758 (3.5%)
+10:45:55.347: Output 'adv_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 4 (0.0%)
+10:45:55.347: [ftl stream: 'adv_stream'] ingest disconnect
+10:45:55.350: ==== Streaming Stop ================================================
+10:45:55.430: warning: 1 frames left in the queue on closing
+10:45:57.705: [ftl stream: 'adv_stream'] Freeing 4 remaining packets
+10:45:57.705: [ftl stream: 'adv_stream'] Disconnected from ingest with reason: ftl ingest disconnect api was called
+10:46:12.567: [ftl stream: 'adv_stream'] ftl_stream_destroy
+10:46:12.567: [ftl stream: 'adv_stream'] ingest destroy
+10:46:12.575: Settings changed (outputs)
+10:46:12.575: ------------------------------------------------
+10:46:14.094: [ftl stream: '(null)'] ftl_stream_create
+10:46:14.094: [ftl stream: 'adv_stream'] ftl_stream_start
+10:46:14.094: ---------------------------------
+10:46:14.094: [NVENC encoder: 'streaming_h264'] settings:
+10:46:14.094: 	rate_control: CBR
+10:46:14.094: 	bitrate:      2000
+10:46:14.094: 	cqp:          0
+10:46:14.094: 	keyint:       180
+10:46:14.094: 	preset:       llhp
+10:46:14.094: 	profile:      main
+10:46:14.094: 	level:        auto
+10:46:14.094: 	width:        1024
+10:46:14.094: 	height:       576
+10:46:14.094: 	2-pass:       true
+10:46:14.094: 	b-frames:     0
+10:46:14.094: 	GPU:          0
+10:46:14.094: 
+10:46:14.315: ---------------------------------
+10:46:14.315: [FFmpeg libopus encoder: 'alt_audio_enc'] bitrate: 160, channels: 2
+10:46:14.315: warning: No channel layout specified. Opus encoder will use Vorbis channel layout for 2 channels.
+10:46:14.315: ftl-stream: connect thread
+10:46:14.315: [ftl stream: 'adv_stream'] init_connect
+10:46:14.315: [ftl stream: 'adv_stream'] Connecting to FTL Ingest URL auto...
+10:46:15.770: [ftl stream: 'adv_stream'] Connection to auto successful
+10:46:17.050: [ftl stream: 'adv_stream'] Speed test completed: User desired bitrate 2000, Peak kbps 13734, initial rtt 80, final rtt 46, 8.52 lost packets
+10:46:17.054: ==== Streaming Start ===============================================
+10:47:27.147: [ftl stream: 'adv_stream'] ftl_stream_stop
+10:47:27.147: [ftl stream: 'adv_stream'] Stream shutdown timeout reached (0 second(s))
+10:47:27.147: [ftl stream: 'adv_stream'] User stopped the stream
+10:47:27.147: Output 'adv_stream': stopping
+10:47:27.147: Output 'adv_stream': Total frames output: 4167
+10:47:27.147: Output 'adv_stream': Total drawn frames: 4120 (4370 attempted)
+10:47:27.147: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 250 (5.7%)
+10:47:27.148: [ftl stream: 'adv_stream'] ingest disconnect
+10:47:27.154: ==== Streaming Stop ================================================
+10:47:27.218: warning: 1 frames left in the queue on closing
+10:47:31.321: [ftl stream: 'adv_stream'] Freeing 4 remaining packets
+10:47:31.321: [ftl stream: 'adv_stream'] Disconnected from ingest with reason: ftl ingest disconnect api was called
+10:47:32.605: [ftl stream: 'adv_stream'] ftl_stream_destroy
+10:47:32.605: [ftl stream: 'adv_stream'] ingest destroy
+10:47:32.613: Settings changed (outputs)
+10:47:32.613: ------------------------------------------------
+10:47:35.336: [ftl stream: '(null)'] ftl_stream_create
+10:47:35.336: [ftl stream: 'adv_stream'] ftl_stream_start
+10:47:35.336: ---------------------------------
+10:47:35.336: [NVENC encoder: 'streaming_h264'] settings:
+10:47:35.336: 	rate_control: CBR
+10:47:35.336: 	bitrate:      2000
+10:47:35.336: 	cqp:          0
+10:47:35.336: 	keyint:       180
+10:47:35.336: 	preset:       llhp
+10:47:35.336: 	profile:      main
+10:47:35.336: 	level:        auto
+10:47:35.336: 	width:        1024
+10:47:35.336: 	height:       576
+10:47:35.336: 	2-pass:       true
+10:47:35.336: 	b-frames:     0
+10:47:35.336: 	GPU:          0
+10:47:35.336: 
+10:47:35.531: ---------------------------------
+10:47:35.531: [FFmpeg libopus encoder: 'alt_audio_enc'] bitrate: 160, channels: 2
+10:47:35.531: warning: No channel layout specified. Opus encoder will use Vorbis channel layout for 2 channels.
+10:47:35.531: ftl-stream: connect thread
+10:47:35.531: [ftl stream: 'adv_stream'] init_connect
+10:47:35.532: [ftl stream: 'adv_stream'] Connecting to FTL Ingest URL auto...
+10:47:36.965: [ftl stream: 'adv_stream'] Connection to auto successful
+10:47:38.247: [ftl stream: 'adv_stream'] Speed test completed: User desired bitrate 2000, Peak kbps 13711, initial rtt 93, final rtt 46, 8.67 lost packets
+10:47:38.264: ==== Streaming Start ===============================================
+10:48:38.898: [ftl stream: 'adv_stream'] ftl_stream_stop
+10:48:38.913: [ftl stream: 'adv_stream'] Stream shutdown timeout reached (0 second(s))
+10:48:38.913: [ftl stream: 'adv_stream'] User stopped the stream
+10:48:38.913: Output 'adv_stream': stopping
+10:48:38.913: Output 'adv_stream': Total frames output: 3598
+10:48:38.913: Output 'adv_stream': Total drawn frames: 3296 (3803 attempted)
+10:48:38.913: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 507 (13.3%)
+10:48:38.914: [ftl stream: 'adv_stream'] ingest disconnect
+10:48:38.916: ==== Streaming Stop ================================================
+10:48:38.991: warning: 1 frames left in the queue on closing
+10:48:42.511: [ftl stream: 'adv_stream'] Freeing 4 remaining packets
+10:48:42.511: [ftl stream: 'adv_stream'] Disconnected from ingest with reason: ftl ingest disconnect api was called
+10:48:53.394: [game-capture: 'Game Capture'] capture window no longer exists, terminating capture
+10:48:53.395: [game-capture: 'Game Capture'] capture stopped
+12:51:28.128: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+12:51:28.131: [game-capture: 'Game Capture'] using helper (compatibility hook)
+12:51:28.164: [game-capture: 'Game Capture'] hook not loaded yet, retrying..
+12:51:31.144: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+12:51:31.159: [game-capture: 'Game Capture'] d3d11 shared texture capture successful
+12:51:31.171: [game-capture: 'Game Capture'] shared texture capture successful
+12:51:44.401: [ftl stream: 'adv_stream'] ftl_stream_start
+12:51:44.401: ---------------------------------
+12:51:44.402: [NVENC encoder: 'streaming_h264'] settings:
+12:51:44.402: 	rate_control: CBR
+12:51:44.402: 	bitrate:      2000
+12:51:44.402: 	cqp:          0
+12:51:44.402: 	keyint:       180
+12:51:44.402: 	preset:       llhp
+12:51:44.402: 	profile:      main
+12:51:44.402: 	level:        auto
+12:51:44.402: 	width:        1024
+12:51:44.402: 	height:       576
+12:51:44.402: 	2-pass:       true
+12:51:44.402: 	b-frames:     0
+12:51:44.402: 	GPU:          0
+12:51:44.402: 
+12:51:44.629: ---------------------------------
+12:51:44.629: [FFmpeg libopus encoder: 'alt_audio_enc'] bitrate: 160, channels: 2
+12:51:44.629: warning: No channel layout specified. Opus encoder will use Vorbis channel layout for 2 channels.
+12:51:44.629: ftl-stream: connect thread
+12:51:44.629: [ftl stream: 'adv_stream'] init_connect
+12:51:44.629: [ftl stream: 'adv_stream'] Connecting to FTL Ingest URL auto...
+12:51:46.214: [ftl stream: 'adv_stream'] Connection to auto successful
+12:51:47.341: [ftl stream: 'adv_stream'] Speed test completed: User desired bitrate 2000, Peak kbps 15017, initial rtt 70, final rtt 44, 0.00 lost packets
+12:51:47.345: ==== Streaming Start ===============================================
+12:52:46.809: Settings changed (outputs)
+12:52:46.809: ------------------------------------------------
+12:57:50.741: Settings changed (outputs)
+12:57:50.741: ------------------------------------------------
+12:57:55.966: adding 23 milliseconds of audio buffering, total audio buffering is now 46 milliseconds
+13:07:29.044: [game-capture: 'Game Capture'] capture window no longer exists, terminating capture
+13:07:29.044: [game-capture: 'Game Capture'] capture stopped
+13:19:39.094: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+13:19:39.097: [game-capture: 'Game Capture'] using helper (compatibility hook)
+13:19:39.117: [game-capture: 'Game Capture'] hook not loaded yet, retrying..
+13:19:42.111: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+13:19:42.133: [game-capture: 'Game Capture'] d3d11 shared texture capture successful
+13:19:42.144: [game-capture: 'Game Capture'] shared texture capture successful
+13:20:41.614: Settings changed (outputs)
+13:20:41.614: ------------------------------------------------
+14:17:27.340: adding 23 milliseconds of audio buffering, total audio buffering is now 69 milliseconds
+14:17:30.627: [game-capture: 'Game Capture'] capture window no longer exists, terminating capture
+14:17:30.630: [game-capture: 'Game Capture'] capture stopped
+14:18:03.827: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+14:18:03.830: [game-capture: 'Game Capture'] using helper (compatibility hook)
+14:18:03.850: [game-capture: 'Game Capture'] hook not loaded yet, retrying..
+14:18:06.844: [game-capture: 'Game Capture'] attempting to hook process: Overwatch.exe
+14:18:06.871: [game-capture: 'Game Capture'] d3d11 shared texture capture successful
+14:18:06.877: [game-capture: 'Game Capture'] shared texture capture successful
+14:18:13.131: [ftl stream: 'adv_stream'] ftl_stream_stop
+14:18:13.147: [ftl stream: 'adv_stream'] Stream shutdown timeout reached (0 second(s))
+14:18:13.147: [ftl stream: 'adv_stream'] User stopped the stream
+14:18:13.147: Output 'adv_stream': stopping
+14:18:13.147: Output 'adv_stream': Total frames output: 311079 (311104 attempted)
+14:18:13.147: Output 'adv_stream': Total drawn frames: 273446 (311311 attempted)
+14:18:13.147: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 37865 (12.2%)
+14:18:13.147: Output 'adv_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: 25 (0.0%)
+14:18:13.147: [ftl stream: 'adv_stream'] ingest disconnect
+14:18:13.150: ==== Streaming Stop ================================================
+14:18:13.245: warning: 1 frames left in the queue on closing
+14:18:14.310: [ftl stream: 'adv_stream'] ftl_stream_start
+14:18:14.311: ---------------------------------
+14:18:14.311: [NVENC encoder: 'streaming_h264'] settings:
+14:18:14.311: 	rate_control: CBR
+14:18:14.311: 	bitrate:      3200
+14:18:14.311: 	cqp:          0
+14:18:14.311: 	keyint:       180
+14:18:14.311: 	preset:       llhp
+14:18:14.311: 	profile:      main
+14:18:14.311: 	level:        auto
+14:18:14.311: 	width:        1024
+14:18:14.311: 	height:       576
+14:18:14.311: 	2-pass:       true
+14:18:14.311: 	b-frames:     0
+14:18:14.311: 	GPU:          0
+14:18:14.311: 
+14:18:14.548: ---------------------------------
+14:18:14.549: [FFmpeg libopus encoder: 'alt_audio_enc'] bitrate: 160, channels: 2
+14:18:14.549: warning: No channel layout specified. Opus encoder will use Vorbis channel layout for 2 channels.
+14:18:14.549: ftl-stream: connect thread
+14:18:14.549: [ftl stream: 'adv_stream'] init_connect
+14:18:17.084: [ftl stream: 'adv_stream'] Freeing 6 remaining packets
+14:18:17.084: [ftl stream: 'adv_stream'] Disconnected from ingest with reason: ftl ingest disconnect api was called
+14:18:17.085: [ftl stream: 'adv_stream'] Connecting to FTL Ingest URL auto...
+14:18:18.633: [ftl stream: 'adv_stream'] Connection to auto successful
+14:18:19.785: [ftl stream: 'adv_stream'] Speed test completed: User desired bitrate 3200, Peak kbps 15017, initial rtt 76, final rtt 43, 0.00 lost packets
+14:18:19.789: ==== Streaming Start ===============================================
+14:27:38.460: [game-capture: 'Game Capture'] capture window no longer exists, terminating capture
+14:27:38.460: [game-capture: 'Game Capture'] capture stopped
+14:27:39.433: [ftl stream: 'adv_stream'] ftl_stream_stop
+14:27:39.446: [ftl stream: 'adv_stream'] Stream shutdown timeout reached (0 second(s))
+14:27:39.446: [ftl stream: 'adv_stream'] User stopped the stream
+14:27:39.446: Output 'adv_stream': stopping
+14:27:39.446: Output 'adv_stream': Total frames output: 33562 (33540 attempted)
+14:27:39.446: Output 'adv_stream': Total drawn frames: 28854 (33894 attempted)
+14:27:39.446: Output 'adv_stream': Number of lagged frames due to rendering lag/stalls: 5040 (14.9%)
+14:27:39.446: Output 'adv_stream': Number of dropped frames due to insufficient bandwidth/connection stalls: -22 (-0.1%)
+14:27:39.446: [ftl stream: 'adv_stream'] ingest disconnect
+14:27:39.450: ==== Streaming Stop ================================================
+14:27:39.495: warning: 1 frames left in the queue on closing
+14:27:44.205: [ftl stream: 'adv_stream'] Freeing 3 remaining packets
+14:27:44.205: [ftl stream: 'adv_stream'] Disconnected from ingest with reason: ftl ingest disconnect api was called
